@@ -35,7 +35,7 @@ Below is a sample README content you can adapt for your project. Feel free to ad
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/django-blog-tutorial.git
+   git clone https://github.com/ModarYaghi/django-simple-blog
    cd django-blog-tutorial
    ```
 2. **Create and activate a virtual environment** (recommended):
