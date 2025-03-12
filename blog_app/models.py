@@ -17,4 +17,6 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
+        # on a CreatView, the following will redirect to 'post_detail'
+        # after save/submit new CreateView
         return reverse("post_detail", kwargs={"pk": self.pk})

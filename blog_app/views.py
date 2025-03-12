@@ -1,8 +1,7 @@
 # from django.shortcuts import get_object_or_404, render
-from django.views.generic import (  # to switch to generic class-based views
-    DetailView,
-    ListView,
-)
+#
+# to switch to generic class-based views
+from django.views.generic import CreateView, DetailView, ListView
 
 from .models import Post
 
@@ -36,3 +35,11 @@ class BlogDetailView(DetailView):
     #
     # unnecessary, but it makes things esier to understand.
     contex_object_name = "post"
+
+
+class BlogCreateView(CreateView):
+    model = Post
+    template_name = "new_post.html"
+    fields = ["title", "author", "body"]
+
+    # success_url = "/"  # If you want to back home after clicking save.
