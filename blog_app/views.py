@@ -1,8 +1,9 @@
 # from django.shortcuts import get_object_or_404, render
 #
 # to switch to generic class-based views
+from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView
-from django.views.generic.edit import CreateView, UpdateView
+from django.views.generic.edit import CreateView, DeleteView, UpdateView
 
 from .models import Post
 
@@ -50,3 +51,9 @@ class BlogUpdateView(UpdateView):
     model = Post
     template_name = "edit_post.html"
     fields = ["title", "body"]
+
+
+class BlogDeleteView(DeleteView):
+    model = Post
+    template_name = "delete_post.html"
+    success_url = reverse_lazy("home")
