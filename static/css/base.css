@@ -1,0 +1,74 @@
+/* Global styles for the body element */
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  /* Sets the font to "Source Sans Pro" with a fallback to any sans-serif font.
+  /* Sets the base font size to 18 pixels */
+}
+
+/* Styles for the header element */
+header {
+  border-bottom: 1px solid #999;
+  /* Adds a 1px solid gray (999) border at the bottom of the header */
+  margin-bottom: 2rem;
+  /* Creates a 2rem space below the header */
+  display: flex;
+  /* Uses Flexbox to align header children, which aids in layout control */
+}
+
+/* Styles for links inside an h1 element within the header */
+header h1 a {
+  color: red;
+  /* Sets the link color to red */
+  text-decoration: none;
+  /* Removes the underline from the link */
+}
+
+/* Class for left navigation elements */
+.nav-left {
+  margin-right: auto;
+  /* Pushes the element to the left by taking up any available space on its right */
+}
+
+/* Class for right navigation elements */
+.nav-right {
+  display: flex;
+  /* Uses Flexbox to arrange children elements horizontally */
+  padding-top: 2rem;
+  /* Adds padding at the top to space the content away from the edge */
+}
+
+/* Styles for individual post entries */
+.post-entry {
+  margin-bottom: 2rem;
+  /* Adds a 2rem margin below each post entry to separate them */
+}
+
+/* Styles for h2 headings within a post entry */
+.post-entry h2 {
+  margin: 0.5rem 0;
+  /* Adds a 0.5rem margin on the top and bottom of the h2, no horizontal margins */
+}
+
+/* Styles for links inside the h2 headings of post entries (both default and visited state) */
+.post-entry h2 a,
+.post-entry h2 a:visited {
+  color: blue;
+  /* Sets the link color to blue */
+  text-decoration: none;
+  /* Removes the underline from these links */
+}
+
+/* Styles for paragraphs within post entries */
+.post-entry p {
+  margin: 0;
+  /* Removes the default margin from paragraphs */
+  font-weight: 400;
+  /* Sets the font weight to 400 (normal weight) */
+}
+
+/* Hover state for links within h2 headings in post entries */
+.post-entry h2 a:hover {
+  color: red;
+  /* Changes the link color to red when hovered over */
+}
