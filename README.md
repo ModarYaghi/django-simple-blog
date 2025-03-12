@@ -111,6 +111,6 @@ Contributions, fixes, and improvements are always welcome! Feel free to open an 
 
 ## Contact
 
-- **Modar Yaghi** – [LinkedIn](https://www.linkedin.com/in/modar-yaghi-b888bbb8//) – [Portfolio](https://your-portfolio-link.com/)
+- **Modar Yaghi** – [LinkedIn](https://www.linkedin.com/in/modar-yaghi-b888bbb8//)
 
 ---
