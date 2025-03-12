@@ -1,7 +1,8 @@
 # from django.shortcuts import get_object_or_404, render
 #
 # to switch to generic class-based views
-from django.views.generic import CreateView, DetailView, ListView
+from django.views.generic import DetailView, ListView
+from django.views.generic.edit import CreateView, UpdateView
 
 from .models import Post
 
@@ -43,3 +44,9 @@ class BlogCreateView(CreateView):
     fields = ["title", "author", "body"]
 
     # success_url = "/"  # If you want to back home after clicking save.
+
+
+class BlogUpdateView(UpdateView):
+    model = Post
+    template_name = "edit_post.html"
+    fields = ["title", "body"]
