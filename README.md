@@ -1,7 +1,3 @@
-Below is a sample README content you can adapt for your project. Feel free to adjust any details to make it uniquely yours. This version is designed to catch a recruiter’s eye, highlight your Django skills, and explain the purpose of your blog application.
-
----
-
 # Django Blog Tutorial Project
 
 [![Built with Django](https://img.shields.io/badge/Framework-Django-darkgreen.svg?style=flat-square&logo=django)](https://www.djangoproject.com/)
