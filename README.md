@@ -115,5 +115,3 @@ Contributions, fixes, and improvements are always welcome! Feel free to open an 
 - Project Link: [https://github.com/ModarYaghi/django-simple-blog](https://github.com/)
 
 ---
-
-Feel free to tweak the above to match your personal style, highlight any specific lessons or achievements, or link your social media. Good luck, and have fun building out your Django skills!
